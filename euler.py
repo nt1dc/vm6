@@ -1,5 +1,4 @@
 def euler_method(f, a, b, y0, h):
-    """ Метод Эйлера """
     dots = [(a, y0)]
     n = int((b - a) / h)
 

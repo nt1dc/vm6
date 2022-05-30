@@ -2,7 +2,6 @@ from euler import euler_method
 
 
 def adams_method(f, a, b, y0, h):
-    """ Метод Адамса """
     n = int((b - a) / h)
     b0 = min(b, a + 3 * h)
     dots = euler_method(f, a, b0, y0, h)
